@@ -4,7 +4,7 @@ const bot = new Client()
  
 const ping = require('minecraft-server-util')
  
-const PREFIX = '#'
+const PREFIX = '%'
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online!!`);
@@ -19,7 +19,7 @@ bot.on('message', message =>{
     let args = message.content.substring(PREFIX.length).split(' ')
  
     switch(args[0]){
-        case 'mc':
+        case 'server':
  
             if(!args[1]) return message.channel.send('You must type a minecraft server ip')
             if(!args[2]) return message.channel.send('You must type a minecraft server port(foloseste port-ul 25565)')
