@@ -1,0 +1,17 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Minecraft BoT",
+  "main": "\u001b[A\u001b[B",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Punfaltes-YT",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "minecraft-server-util": "^1.0.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {}
+}
