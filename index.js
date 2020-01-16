@@ -33,7 +33,7 @@ bot.on('message', message =>{
                 .addField('𝙎𝙚𝙧𝙫𝙚𝙧 𝙑𝙚𝙧𝙨𝙞𝙤𝙣', reponse.version)
                 .addField('𝙊𝙣𝙡𝙞𝙣𝙚 𝙋𝙡𝙖𝙮𝙚𝙧𝙨', reponse.onlinePlayers)
                 .addField('𝙈𝙖𝙭 𝙋𝙡𝙖𝙮𝙚𝙧𝙨', reponse.maxPlayers)
-                .addField("**Port:**", `\`${25565}\``)
+                .addField('𝙋𝙤𝙧𝙩', `\`${25565}\``)
                 message.channel.send(Embed)
             })
         break
