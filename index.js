@@ -4,7 +4,7 @@ const bot = new Client()
  
 const ping = require('minecraft-server-util')
  
-const PREFIX = '%'
+const PREFIX = '$'
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online!!`);
